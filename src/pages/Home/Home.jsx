@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Header from './Header';
+import TobBanner from './TobBanner';
 
 const Home = () => {
     return (
         <div>
-            <Navbar /> 
+            <Header /> 
+            <TobBanner />
         </div>
     );
 };
