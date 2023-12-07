@@ -24,10 +24,10 @@ const Header = () => {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center hover:text-orange-800">
+        <a href="#" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -35,30 +35,30 @@ const Header = () => {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center hover:text-orange-800">
+        <a href="#" className="flex items-center">
           Products
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center hover:text-orange-800">
+        <a href="#" className="flex items-center">
           About
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center hover:text-orange-800">
+        <a href="#" className="flex items-center">
           Success
         </a>
       </Typography>
@@ -69,16 +69,16 @@ const Header = () => {
     <div className="max-h-[768px] w-full">
       {/* <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-none"> */}
       <Navbar
-        className="fixed top-0 z-10 max-w-full rounded-none px-4 py-2 lg:px-14 lg:py-2 shadow-none bg-white"
+        className="fixed top-0 z-10 max-w-full rounded-none px-4 py-2 lg:px-14 lg:py-2 bg-opacity-80 shadow-sm bg-[#0d0518] border-none"
         // Add 'bg-white' to set the background color (if needed)
       >
-        <div className="flex items-center justify-between text-blue-gray-900">
+        <div className="flex items-center justify-between">
           <Typography
             as="a"
             href="#"
             className="mr-4 text-base cursor-pointer py-1.5 font-bold"
           >
-            <a href="/" className="flex items-center">
+            <a href="/" className="flex items-center text-white">
               <img src={logo} alt="logo" className="-mt-2 -mr-4 md:w-[70px] md:h-[60px] w-[50px] h-[40px]"  /> 
 
               <span>Programming Hero</span>
