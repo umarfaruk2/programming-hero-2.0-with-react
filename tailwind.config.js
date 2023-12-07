@@ -15,6 +15,9 @@ module.exports = withMT({
         'custom-gra': 'linear-gradient(90deg, #E855DE 0.01%, #5400EE 100%)',
         'custom-gra2': 'linear-gradient(31deg, #251360 0%, #7A29A3 64.86%, #CE1AEB 100%)',
         'text-color': 'linear-gradient(90deg, #E855DE -26.01%, #5400EE 121.7%)',
+        'phitron_title': 'linear-gradient(70deg, #4B75F1 9.27%, #3065FF 92.91%)',
+        'phitron_btn': 'linear-gradient(90deg, #6892FF 0.01%, #1555B5 100%)',
+        'phitron_card': 'linear-gradient(33deg, #081848 0%, #081848 0%, #081848 0.01%, #2E5CDF 100%)',
         'course_img': "url('/src/assets/images/grid-bg.png')",
       },
       screens: {

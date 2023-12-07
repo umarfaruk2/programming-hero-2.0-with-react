@@ -277,7 +277,7 @@ const TobBanner = () => {
       <div>
         <img
           src={city}
-          className="lg:mt-0 mt-10 md:object-cover object-contain"
+          className="lg:mt-0 mt-10 md:object-cover object-contain opacity-60"
           alt=""
         />
       </div>
