@@ -34,7 +34,10 @@ module.exports = withMT({
         'card_batch_3': 'linear-gradient(90deg, #661BC6 -26.01%, #924AEF 121.7%)',
 
         'card_body_4': 'linear-gradient(161deg, #E2871C 0%, rgba(77, 65, 6, 0.00) 100%)',
-        'card_batch_4': 'linear-gradient(90deg, #E87055 -26.01%, #EE007E 121.7%)'
+        'card_batch_4': 'linear-gradient(90deg, #E87055 -26.01%, #EE007E 121.7%)',
+
+        'footer_bg': "url('/src/assets/images/footer-bg.png')",
+        'footer_bg_2': 'linear-gradient(228.02deg, #3693FF 16.1%, rgba(82, 253, 195, 0.67) 80.73%)'
       },
       screens: {
       'sm': '640px',

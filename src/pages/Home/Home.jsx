@@ -5,6 +5,7 @@ import Courses from './Courses';
 import MobileApp from './MobileApp';
 import Success_story from './Success_story';
 import OurMission from './OurMission';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <MobileApp />
             <Success_story />
             <OurMission />
+            <Footer />
         </div>
     );
 };

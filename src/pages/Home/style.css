@@ -19,3 +19,20 @@
   pointer-events: none;
   z-index: -100;
 }
+
+.bg_layer {
+  position: absolute;
+  /* bottom: -100px; */
+  margin-top: 87px;
+  left: 50%;
+  width: 70vw;
+  aspect-ratio: 5/1;
+  background: linear-gradient(
+    228.02deg,
+    #3693ff 16.1%,
+    rgba(82, 253, 195, 0.67) 80.73%
+  );
+  /* -webkit-filter: blur(200px); */
+  filter: blur(200px);
+  transform: translateX(-50%);
+}
