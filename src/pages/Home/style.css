@@ -1,4 +1,21 @@
 .over_hidden {
-    overflow-x: hidden !important;
-    /* right: 80px; */
+  overflow-x: hidden !important;
+  /* right: 80px; */
+}
+
+.extra_bg::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    #6605ba 0%,
+    rgba(24, 0, 79, 0.53) 50.52%,
+    rgba(93, 38, 224, 0) 100%
+  );
+  pointer-events: none;
+  z-index: -100;
 }

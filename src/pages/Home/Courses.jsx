@@ -8,20 +8,27 @@ const Courses = () => {
   return (
     <section className="">
       {/* extra icon */}
-            <img src={course_icon_1} className="slg:block hidden absolute right-16 top-[67rem] h-[200px] w-[200px]" alt="" />
-            <img src={course_icon_2} className="slg:block hidden absolute left-16 top-[135rem] h-[200px] w-[200px]" alt="" />
+      <img
+        src={course_icon_1}
+        className="slg:block hidden absolute right-16 top-[67rem] h-[200px] w-[200px]"
+        alt=""
+      />
+      <img
+        src={course_icon_2}
+        className="slg:block hidden absolute left-16 top-[135rem] h-[200px] w-[200px]"
+        alt=""
+      />
       {/* end extra icon */}
       <div className="flex flex-col items-center -mb-12 mt-10">
-          <div>
-            <h3 className="text-[#FCE6FA] text-3xl sm:text-5xl font-extrabold">
-              Our Courses_
-            </h3>
-            <div className="bg-custom-gra w-20 h-2 text-white sm:ml-[9rem] ml-[4rem] mt-10"></div>
-          </div>
+        <div>
+          <h3 className="text-[#FCE6FA] text-3xl sm:text-5xl font-extrabold">
+            Our Courses_
+          </h3>
+          <div className="bg-custom-gra w-20 h-2 text-white sm:ml-[9rem] ml-[4rem] mt-10"></div>
         </div>
-      <div className="pb-10 mt-16 bg-course_img bg-cover w-full h-auto pt-10">
-        
+      </div>
 
+      <div className="pb-10 mt-16 bg-course_img bg-cover w-full h-auto pt-10">
         <div className="grid grid-flow-row items-center lg:grid-cols-2 mt-20 xl:mx-28 lg:mx-20 mx-10 gap-12">
           <div className="bg-custom-gra2 rounded-md">
             <img src={course_image} alt="" className="py-5 px-6 w-full" />
