@@ -4,6 +4,7 @@ import TobBanner from './TobBanner';
 import Courses from './Courses';
 import MobileApp from './MobileApp';
 import Success_story from './Success_story';
+import OurMission from './OurMission';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Courses />
             <MobileApp />
             <Success_story />
+            <OurMission />
         </div>
     );
 };

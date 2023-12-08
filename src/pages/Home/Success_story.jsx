@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import person_1 from "../../assets/images/person_1.webp";
@@ -75,15 +75,18 @@ const Success_story = () => {
             Success_Story
           </h3>
           <div className="flex justify-center">
-
-          <div className="bg-custom-gra w-20 h-2 text-white mt-10"></div>
+            <div className="bg-custom-gra w-20 h-2 text-white mt-10"></div>
           </div>
         </div>
       </div>
       <Swiper
         spaceBetween={40}
-        slidesPerView={4}
-        // breakpoints={}
+        breakpoints={{
+          640: { slidesPerView: 1},
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+          1280: { slidesPerView: 4 },
+        }}
         loop={true}
         autoplay={{ delay: 3000 }}
         className="mx-8"
@@ -91,7 +94,9 @@ const Success_story = () => {
         {/* Add more SwiperSlides as needed */}
         {cards.map((card) => (
           <SwiperSlide className="">
-            <div className={`${card.card_body} h-96 rounded-xl`}>
+            <div
+              className={`${card.card_body} lg:h-[25rem] md:h-[23rem] h-[21rem] rounded-xl`}
+            >
               <div className="p-8">
                 <div className="flex items-center justify-between">
                   <FaQuoteLeft color="white" size={26} />
@@ -108,7 +113,7 @@ const Success_story = () => {
                 </p>
               </div>
 
-              <div className="mt-10 flex items-center justify-between px-6">
+              <div className="mt-12 flex items-center justify-between space-x-2 px-6">
                 <div>
                   <img
                     src={card.image}
